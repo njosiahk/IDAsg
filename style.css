@@ -16,6 +16,7 @@ body {
   
   /* Style the links inside the navigation bar */
   .navbar a {
+    /* display: inline-block; */
     float: left;
     color: black;
     text-align: center;
@@ -118,10 +119,20 @@ body {
   to {opacity: 1}
 }
 
-
+/* .navbar .floatright img {
+  display: flex;
+  height:40px;
+  width: auto;
+  float: right;
+} */
 
 .navbar .icon img {
   display: flex;
   height:40px;
   width: auto;
 }
+
+/* .navbar .icon #yonken img {
+  display: flex;
+  he
+} */

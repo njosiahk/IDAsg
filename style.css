@@ -108,6 +108,17 @@ body {
   text-align: center;
 }
 
+#homecaption3 {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+  padding: 20px;
+  position: absolute;
+  bottom: 4%;
+  width: 100%;
+  text-align: center;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -119,20 +130,15 @@ body {
   to {opacity: 1}
 }
 
-/* .navbar .floatright img {
-  display: flex;
-  height:40px;
-  width: auto;
-  float: right;
-} */
-
 .navbar .icon img {
   display: flex;
   height:40px;
   width: auto;
 }
 
-/* .navbar .icon #yonken img {
+.navbar .yonken {
   display: flex;
-  he
-} */
+  height: 90px;
+  width: auto;
+  padding-bottom: 10px;
+}

@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <header class="navbar">
         <nav>
-        <a class="active" href="#">Home</a>
-        <a>{}</a>
+        <a class="icon" href="#"><img src="HomeMedia/home.png"></a>
+        <a href = "#">{}</a>
         <a class="menu" href="#discography">Discography</a>
         <a class="menu" href="#shop">Shop</a>
         <a class="menu" href="#about">About</a>
-        <a href="#medialink">YT</a>
-        <a href="#medialink">SP</a>
-        <a href="#medialink">AP</a>
-        <a href="#medialink">IN</a>
+        <div class="icon">
+          <a href="https://www.youtube.com/user/08yakari?feature=watch" target="_blank" rel="noreferrer noopener"><img src="HomeMedia/youtube_social_circle_dark.png"></a>
+          <a href="https://open.spotify.com/artist/1snhtMLeb2DYoMOcVbb8iB?si=R_tcrOq_S02289V3M4rcDw" target="_blank" rel="noreferrer noopener"><img src="HomeMedia/Spotify_Icon_RGB_Black.png"></a>
+          <a href="https://music.apple.com/us/artist/kenshi-yonezu/530814268" target="_blank" rel="noreferrer noopener"><img src ="HomeMedia/itunes-512.png"></a>
+          <a href="https://instagram.com/hachi_08?igshid=YmMyMTA2M2Y= " target="_blank" rel="noreferrer noopener"><img src="HomeMedia/black-instagram-logo-3497.png"></a>
+        </div>
+        
         </nav>
     </header>
 
@@ -28,33 +32,26 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="HomeMedia/homemain.png" style="width:100%">
+      <img src="HomeMedia/homemain.jpg" style="width:100%">
+      <div class="text" id="homecaption1">Latest Single: "KICK BACK" <br>Out Now on Spotify and iTunes!</div>
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <video autoplay loop muted style="width:100%">
+      <video autoplay loop muted width="1920" height="936">
       <source src="HomeMedia/Chainsaw.mp4" type="video/mp4"></video>
-      <div class="text">kick the back</div>
+      <div class="text" id="homecaption2">Featured in hit anime "Chainsaw Man" as the Opening Song!</div>
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="HomeMedia/homemain.png" style="width:100%">
+      <img src="https://cdn.shopify.com/s/files/1/0595/0544/2966/files/BN_kickback_PC_33per.png?v=1668658951" style="max-width: 100%; height: auto;">
+      <div class="text" id="homecaption3">Third Slide</div>
     </div>
   
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-  
-  <!-- The dots/circles -->
-  <!-- <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div> -->
+    
+  </div>
+</div>
 </body>
 </html>

@@ -1,12 +1,16 @@
 @font-face {
     font-family: 'TrebuchetMS';
-    src: url(fonts/TREBUCBD.ttf);
-}
+    src: url(TREBUCBD.ttf);
+} 
 
 /* NAVBAR CODE */
+
 body {
-    margin:0;
-    overflow: hidden;
+  margin:0;
+}
+
+.index {
+  overflow: hidden;
 }
 
 .navbar {
@@ -16,10 +20,9 @@ body {
   
   /* Style the links inside the navigation bar */
   .navbar a {
-    /* display: inline-block; */
+    display: flex;
     float: left;
     color: black;
-    text-align: center;
     padding: 22px 26px;
     text-decoration: none;
     font-size: 40px;
@@ -27,7 +30,7 @@ body {
   }
   
   /* Change the color of links on hover */
-    .menu:hover {
+  .menu:hover {
     background-color: black;
     color: white;
   }
@@ -36,10 +39,40 @@ body {
     background-color: black;
     color: white;
   }
-  
+
+  /* nav formatting */
+
+.navbar .icon img {
+  height:40px;
+  width: auto;
+}
+
+.navbar #yonken {
+  display: flex;
+  height: 90px;
+  width: auto;
+  padding-bottom: 10px;
+}
+
+/* nav flex display */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* INDEX PAGE STARTS HERE */
+
+.center{
+  left: auto !important;
+  right: auto !important;
+}
+
 /* SLIDESHOW CODE */
 
-* {box-sizing:border-box}
+* {
+  box-sizing:border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -130,15 +163,15 @@ body {
   to {opacity: 1}
 }
 
-.navbar .icon img {
-  display: flex;
-  height:40px;
-  width: auto;
+/* INDEX PAGE ENDS HERE */
+
+/* ABOUT PAGE  STARTS HERE */
+
+.banner {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), black, black, black, black, black, rgba(0,0,0,0), rgba(0,0,0,0));
 }
 
-.navbar .yonken {
-  display: flex;
-  height: 90px;
-  width: auto;
-  padding-bottom: 10px;
-}
+/* ABOUT PAGE ENDS HERE */

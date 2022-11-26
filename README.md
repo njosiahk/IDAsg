@@ -1,8 +1,8 @@
 # IDAsg
 
-This project is for my ID Assignment 1, it is a website made for fans of Japanese Singer/Songwriter Kenshi Yonezu. 
+This project is for my ID Assignment 1, it is a website made for fans of Japanese Singer/Songwriter Kenshi Yonezu.
 
-Design Proces
+Design Process
 
 It is to be used for easy access to his songs and merchandise, as well as an About page so visitors can learn more about him.
 
@@ -17,11 +17,7 @@ https://xd.adobe.com/view/028fdf8c-6793-43a5-b7e5-d89a1687e8ad-57dc/
 
 Features
 
-
-
 Existing Features
-
-
 
 Features Left to Implement
 

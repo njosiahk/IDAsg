@@ -3,7 +3,7 @@
     src: url(TREBUCBD.ttf);
 } 
 
-/* NAVBAR CODE */
+/* NAVBAR CODE STARTS HERE */
 
 body {
   margin:0;
@@ -18,7 +18,6 @@ body {
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .navbar a {
     display: flex;
     float: left;
@@ -29,7 +28,6 @@ body {
     font-family: 'TrebuchetMS', sans-serif;
   }
   
-  /* Change the color of links on hover */
   .menu:hover {
     background-color: black;
     color: white;
@@ -39,8 +37,6 @@ body {
     background-color: black;
     color: white;
   }
-
-  /* nav formatting */
 
 .navbar .icon img {
   height:40px;
@@ -54,27 +50,26 @@ body {
   padding-bottom: 10px;
 }
 
-/* nav flex display */
-
 nav {
   display: flex;
   justify-content: space-between;
 }
 
+/* NAVBAR CODE ENDS HERE */
+
 /* INDEX PAGE STARTS HERE */
 
-.center{
+.centermedia{
   left: auto !important;
   right: auto !important;
 }
 
-/* SLIDESHOW CODE */
+/* SLIDESHOW CODE STARTS HERE */
 
 * {
   box-sizing:border-box
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -82,12 +77,10 @@ nav {
   background-color: black;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -103,18 +96,17 @@ nav {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* SLIDESHOW CODE ENDS HERE */
+
 .text {
   color: black;
   font-family: 'TrebuchetMS', sans-serif;
@@ -152,7 +144,6 @@ nav {
   text-align: center;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -171,7 +162,39 @@ nav {
   max-width: 100%;
   position: relative;
   margin: auto;
-  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), black, black, black, black, black, rgba(0,0,0,0), rgba(0,0,0,0));
+  background-color: black;
+}
+
+.about {
+  font-size: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black; 
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+#myBtn:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* ABOUT PAGE ENDS HERE */
+
+/* DISCOGRAPHY PAGE STARTS HERE */
+
+
+
+/* DISCOGRAPHY PAGE ENDS HERE */

@@ -8,18 +8,32 @@ It is to be used for easy access to his songs and merchandise, as well as an Abo
 
 As a fan, I want to know any important news about this music artist, hence news should be on the front page.
 
-As a customer, I want to purchase merchandise or albums, hence access to these pages must be on the front page or easy to access.
+As a customer, I want to purchase merchandise or albums, hence access to these pages must be on the front page and/or easy to access.
 
-As a curious visitor, I want to know more about this music artist, hence access to the about page must be on the front page or easy to access.
+As a curious visitor, I want to know more about this music artist, hence access to the about page or discography page must be easy to access.
 
 Wireframe:
 https://xd.adobe.com/view/028fdf8c-6793-43a5-b7e5-d89a1687e8ad-57dc/
 
 Features
 
+Discography page in which users may listen to snippets of the songs in order to find out which ones they like
+
+Shop page which links users to the official store so that they may buy merchandise
+
+About page that tells users more about Kenshi Yonezu
+
+Navigation Bar so users may navigate the website easier
+
+Social Media links so users may find Kenshi Yonezu's official accounts easier
+
 Existing Features
 
+About Page, Home Page, Navigation Bar, Social Media Links
+
 Features Left to Implement
+
+Discography page, Shop Page
 
 Hamburger Menu in Mobile View so that mobile users can access the top menu easier
 

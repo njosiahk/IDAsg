@@ -22,6 +22,9 @@ a {
 .navbar {
   background-color: white;
   overflow: hidden;
+  border-bottom: solid black 5px;
+  padding-bottom: 0px;
+  height: 90px;
 }
 
 .navbar a {

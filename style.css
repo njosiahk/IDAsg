@@ -3,11 +3,13 @@
     src: url(TREBUCBD.ttf);
 } 
 
-/* NAVBAR CODE STARTS HERE */
-
 body {
-  margin:0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+/* NAVBAR CODE STARTS HERE */
 
 .index {
   overflow: hidden;
@@ -195,6 +197,13 @@ nav {
 
 /* DISCOGRAPHY PAGE STARTS HERE */
 
-
+.heading {
+  font-size:60px;
+  padding: 8px 12px;
+  position: relative;
+  top:8%;
+  left: 8%;
+  text-align: left;
+}
 
 /* DISCOGRAPHY PAGE ENDS HERE */

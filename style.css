@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* NAVBAR CODE STARTS HERE */
 
 .index {
@@ -25,7 +29,6 @@ body {
   float: left;
   color: black;
   padding: 22px 26px;
-  text-decoration: none;
   font-size: 40px;
   font-family: "TrebuchetMS", sans-serif;
 }
@@ -182,7 +185,7 @@ nav {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 30px;
   z-index: 99;
   border: none;
@@ -205,11 +208,19 @@ nav {
 
 .heading {
   font-size: 60px;
-  padding: 8px 12px;
+  padding: 2px 12px 2px;
   position: relative;
   top: 8%;
-  left: 8%;
+  left: 6%;
   text-align: left;
+  border-bottom: solid black 5px;
+  width: 88%;
+}
+
+.album {
+  width: 100%;
+  height: auto;
+  padding: 5px 95px;
 }
 
 /* DISCOGRAPHY PAGE ENDS HERE */

@@ -13,7 +13,7 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 30000); // Change image every 30 seconds
+  setTimeout(showSlides, 30000); // Change slide every 30 seconds, more time to listen to song/look at product
 }
 
 function plusSlides(position) {

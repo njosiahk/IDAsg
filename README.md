@@ -29,11 +29,9 @@ Social Media links so users may find Kenshi Yonezu's official accounts easier
 
 Existing Features
 
-About Page, Home Page, Navigation Bar, Social Media Links
+About Page, Home Page, Navigation Bar, Social Media Links, Discography Page, Shop Page
 
 Features Left to Implement
-
-Discography page, Shop Page
 
 Hamburger Menu in Mobile View so that mobile users can access the top menu easier
 

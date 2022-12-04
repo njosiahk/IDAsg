@@ -27,28 +27,47 @@ Navigation Bar so users may navigate the website easier
 
 Social Media links so users may find Kenshi Yonezu's official accounts easier
 
+Spotify Embeds so users can listen to snippets of the songs
+
 Existing Features
 
-About Page, Home Page, Navigation Bar, Social Media Links, Discography Page, Shop Page
+About Page, Home Page, Navigation Bar, Social Media Links, Discography Page, Shop Page, Spotify Embeds
 
 Features Left to Implement
 
-Hamburger Menu in Mobile View so that mobile users can access the top menu easier
+None
 
 Technologies Used
 
 HTML, CSS, Javascript
 
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-
 Credits
 
 The photos used in this site were obtained from ...
 
-<a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Freepik - Flaticon</a>
-Icon by <a href='https://iconpacks.net/?utm_source=link-attribution&utm_content=3497'>Iconpacks</a>
-<a href="https://www.freeiconspng.com/img/47486" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/black-lines-twitter-icon-symbol-18.png" width="350" alt="Black Lines Twitter Icon Symbol" /></a>
-<img src="https://www.pngkey.com/png/detail/332-3321462_mobile-menu-for-barefoot-resort-vacations-hamburger-menu.png" alt="Mobile Menu For Barefoot Resort Vacations - Hamburger Menu Icon White@pngkey.com">
+Kenshi Yonezu's Spotify (albums, spotify and about page banner)
+https://open.spotify.com/artist/1snhtMLeb2DYoMOcVbb8iB
+
+3rd party wallpaper site
+https://wall.alphacoders.com/big.php?i=1012275
+
+Official Reissue Records Website
+https://shop.kenshiyonezu.jp
+
+Official Kenshi Yonezu Shop
+https://shop.kenshiyonezu.jp
+
+Home Icon obtained from
+https://www.flaticon.com/free-icon/home_1946488
+
+iTunes Icon obtained from
+https://imgbin.com/png/k2Bc9vus/itunes-logo-computer-icons-png
+
+Spotify Icon obtained from
+https://developer.spotify.com/documentation/general/design-and-branding/
+
+YouTubes Icon obtained from
+https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors
+
+Instagram Icon obtained from
+https://www.facebook.com/brand/resources/instagram/icons
